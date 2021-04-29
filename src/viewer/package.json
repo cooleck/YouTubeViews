@@ -1,0 +1,45 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "runAsync.js",
+  "pkg": {
+	  "scripts": "./*.js",
+	  "targets": ["node14"],
+	  "assets": "../../config/*"
+  },
+  "scripts": {
+    "test": "cd src/viewer && node --experimental-modules runAsync.js 217.29.63.240:14471 JJbCoQ jQpd3e pankayanka862@gmail.com 95365726asd 217.29.63.240:14472 JJbCoQ jQpd3e kiknadikma@gmail.com 95365726asd",
+    "testIdea": "npm test",
+    "testMulti": "cd /home/cooleck/YouTubeViews/src/viewer && node --experimental-modules runAsync.js 217.29.53.108:17254 JJbCoQ jQpd3e kirkapet12@gmail.com 95365726asd 217.29.53.108:17253 JJbCoQ jQpd3e kiropetkov221@gmail.com 95365726asd 217.29.53.108:17252 JJbCoQ jQpd3e kikoandmartini@gmail.com 95365726asd 217.29.53.108:17251 JJbCoQ jQpd3e kirilpetkovich@gmail.com 95365726asd 217.29.53.108:17250 JJbCoQ jQpd3e kirillmakropil@gmail.com 95365726asd",
+    "testIdeaMulti": "npm testMulti",
+    "test_test": "cd src/viewer && node --experimental-modules test.js 123 234 adf",
+    "testParseChannel": "cd src/viewer && node --experimental-modules parseChannel.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "domutils": "^2.4.4",
+    "fs": "0.0.1-security",
+    "gaussian": "^1.1.0",
+    "google-auth-library": "^6.1.3",
+    "googleapis": "^66.0.0",
+    "jsdom": "^16.4.0",
+    "knuth-shuffle-seeded": "^1.0.6",
+    "node-fetch": "^2.6.1",
+    "pkg": "^4.4.9",
+    "puppeteer": "^5.4.1",
+    "puppeteer-extra": "^3.1.15",
+    "puppeteer-extra-plugin-adblocker": "^2.11.9",
+    "puppeteer-extra-plugin-stealth": "^2.6.5",
+    "readline-async": "^0.1.0",
+    "readline-sync": "^1.4.10",
+    "requirejs": "^2.3.6",
+    "shuffle-array": "^1.0.1",
+    "xmldom": "^0.4.0",
+    "yargs": "^16.1.1"
+  },
+  "type": "module"
+}

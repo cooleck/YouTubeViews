@@ -1,0 +1,9 @@
+{
+    "list": [
+        {
+            "address": "hostname:port",
+            "login": "login",
+            "password": "password"
+        }
+    ]
+}

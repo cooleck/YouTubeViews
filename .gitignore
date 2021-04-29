@@ -1,0 +1,14 @@
+src/viewer/test.js
+node_modules
+.idea
+config/account_1.json
+config/proxy_1.json
+config/videos1.json
+config/videos_2.json
+src/launcher/test.py
+venv
+errors
+src/launcher/build
+src/launcher/dist
+src/launcher/YouTubeBot.spec
+src/launcher/__pycache__
