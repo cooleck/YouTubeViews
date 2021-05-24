@@ -1,8 +1,8 @@
 // Функция авторизации на YouTube.
 async function authenticateYoutube(page, youtubeLogin, youtubePassword) {
     // Нажатие кнопки Sign in.
-    await page.waitForSelector('paper-button.style-suggestive')
-    await page.$eval('paper-button.style-suggestive', (button) => button.click())
+    await page.waitForSelector('ytd-button-renderer.style-scope:nth-child(3) > a:nth-child(1)')
+    await page.$eval('ytd-button-renderer.style-scope:nth-child(3) > a:nth-child(1)', (button) => button.click())
     await page.waitForSelector('#identifierId')
 
     // Ввод логина.
